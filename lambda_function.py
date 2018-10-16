@@ -8,7 +8,7 @@ def lambda_handler(event, context):
     sc.api_call(
         "chat.command",
         channel="CAxxxxxx",
-        command='/slach_command',
+        command='/slack_command',
     )
     
     return {
